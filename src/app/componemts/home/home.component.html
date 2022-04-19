@@ -1,20 +1,32 @@
-<nav class="flex p-4 shadow-lg w-full bg-white justify-between">
-    <a href="" class="ml-8">LOGO</a>
-    <label for="sanduiwch" class="sm:hidden  mr-8" (click)="alterar()">
-        <span>xx</span>
-    </label>
-    <div class="" *ngIf="this.x">
-        <ul class="sm:flex-col   flex space-x-4 mr-8">
-            <li>home</li>
-            <li>about</li>
-            <li>contatc</li>
+<div class="w-96 mx-auto">
+
+    <nav class="flex p-4 shadow-lg bg-orange-400 text-stone-50 justify-between">
+
+        <label for="sanduiwch" class="mr-8" (click)="alterar()">
+            <view-list-outline-icon></view-list-outline-icon>
+        </label>
+        
+        <search-outline-icon></search-outline-icon>
+    
+    </nav>
+    
+    <div class="w-96 mx-auto" *ngIf="this.x">
+        <div class="flex">
+            <user-solid-icon ></user-solid-icon>
+            <h2>Bem vindo</h2>
+        </div>
+        <ul class="flex-col space-x-4 mr-8">
+            <li>Historico de viagen</li>
+            <li>pagar passagens</li>
+            <li>verificar rotas passagens</li>
+            <li>sua conta</li>
+            <li>ajuda</li>
+            <li>sair</li>
         </ul>
     </div>
-</nav>
-
-
-
-
-<p>{{nome}}</p>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.7575840892277!2d-36.40757828583938!3d-8.3268697861356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a9c7adccc9a75f%3A0x194fb8394c7d3010!2sUnidade%20Acad%C3%AAmica%20de%20Belo%20Jardim%20-%20UABJ%20%2F%20UFRPE!5e0!3m2!1sen!2sbr!4v1649898743140!5m2!1sen!2sbr"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="my-4 w-full h-80"></iframe>
+    
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.7575840892277!2d-36.40757828583938!3d-8.3268697861356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a9c7adccc9a75f%3A0x194fb8394c7d3010!2sUnidade%20Acad%C3%AAmica%20de%20Belo%20Jardim%20-%20UABJ%20%2F%20UFRPE!5e0!3m2!1sen!2sbr!4v1649898743140!5m2!1sen!2sbr"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="h-screen mx-auto"></iframe>
+    
+    <button class="px-4 py-1 text-sm text-orange-600 font-semibold rounded-full border border-orange-200 hover:text-white hover:bg-orange-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-offset-2">Notificar assedio</button>
+</div>

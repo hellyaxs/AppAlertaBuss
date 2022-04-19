@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './componemts/Login/login/login.component';
 import { HomeComponent } from './componemts/home/home.component';
-
+import { NgHeroiconsModule } from "@dimaslz/ng-heroicons";
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +14,7 @@ import { HomeComponent } from './componemts/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,NgHeroiconsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

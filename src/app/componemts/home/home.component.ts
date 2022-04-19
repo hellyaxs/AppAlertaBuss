@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-   x:Boolean = true;
+   x:Boolean = false;
    nome:string = "" ;
 
   constructor(){ }
