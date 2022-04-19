@@ -3,10 +3,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-image: url("assets/photo_2022-04-18_18-24-55.jpg");
-    background-repeat: no-repeat;
-    background-size: 44%;
-    background-position: center;
-    background-position-y: 15%;
-}

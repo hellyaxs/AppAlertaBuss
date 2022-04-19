@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './componemts/Login/login/login.component';
 import { HomeComponent } from './componemts/home/home.component';
 import { NgHeroiconsModule } from "@dimaslz/ng-heroicons";
+import { SidnavComponent } from './componemts/sidnav/sidnav.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    SidnavComponent
   ],
   imports: [
     BrowserModule,

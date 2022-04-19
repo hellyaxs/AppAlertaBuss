@@ -28,6 +28,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/logo.ico",
               {
                  "glob":"_redirects",
                  "input": "src",
